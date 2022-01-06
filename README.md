@@ -6,9 +6,9 @@ jproblemgenerator creates scenarios in which Java programs leak memory or crash 
 # jproblemgenerator - usage
 Always run it with the option `-Xmx1024m` to prevent it from using all RAM. Change the amount of memory according to your hardware.
 
-`java -Xmx1024m -jar jproblemgenerator.jar` --> prints help
+`java -Xmx1024m -jar jproblemgenerator-jar-with-dependencies.jar` --> prints help
 
-`java -Xmx1024m -jar jproblemgenerator.jar -bigHashMap` --> creates a big HashMap and waits for you to hit enter to terminate. That gives you the chance to take a dump of the program.
+`java -Xmx1024m -jar jproblemgenerator-jar-with-dependencies.jar -bigHashMap` --> creates a big HashMap and waits for you to hit enter to terminate. That gives you the chance to take a dump of the program.
 
 Help:
 
